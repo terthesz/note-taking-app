@@ -25,7 +25,7 @@ const NotebookList = () => {
   }, []);
 
   return (
-    <div className='w-full h-full grid grid-cols-5 grid-flow-row px-[17rem] gap-10 py-10'>
+    <div className='w-full h-full grid grid-cols-4 grid-flow-row px-[17rem] gap-10 py-10'>
       {notebooks.map((notebook) => {
         return <Notebook key={notebook.id} notebook={notebook} />;
       })}
