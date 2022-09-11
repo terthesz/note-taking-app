@@ -12,14 +12,14 @@ const NotebookList = () => {
       {
         name: 'Mat',
         id: '0',
-        subject: 'Mat',
-        colour: '#73BBFF',
+        subject: 'Matematika',
+        colour: 'Sandy Brown',
       },
       {
         name: 'Sjl',
-        id: '0',
-        subject: 'Sjl',
-        colour: '#FFAB73',
+        id: '1',
+        subject: 'Slovenčina',
+        colour: 'French Sky Blue',
       },
     ]);
   }, []);
