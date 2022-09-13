@@ -15,13 +15,11 @@ const Notebook = ({ notebook }: { notebook: NotebookType }) => {
       `hsl(${raw_colour.Hue}, ${raw_colour.Saturation}%, 60%)`,
       `hsl(${raw_colour.Hue}, ${raw_colour.Saturation}%, 35%)`,
     ]);
-
-    console.log(colours);
   }, []);
 
   return (
     <div
-      className='relative w-full h-[8rem] rounded-lg text-white px-5 py-4'
+      className='relative w-full h-[8rem] rounded-lg text-white px-5 py-4 cursor-pointer hover:scale-[1.02] active:scale-100'
       style={{ backgroundColor: colours[0] }}
     >
       <h1 className='font-extrabold text-2xl tracking-[.2rem]'>
